@@ -1,0 +1,264 @@
+﻿CVE,nombre
+ABW,Aruba
+AFG,Afganistán
+AGO,Angola
+AIA,Anguila
+ALA,Islas Áland
+ALB,Albania
+AND,Andorra
+ANT,Antillas Neerlandesas
+AQS,Antártica
+ARE,Emiratos Árabes Unidos
+ARG,Argentina
+ARM,Armenia
+ASM,Samoa Americana
+ATF,Territorios Franceses del Sur
+ATG,Antigua y Barbuda
+AUS,Australia
+AUT,Austria
+AZE,Azerbaiján
+BDI,Burundi
+BEL,Bélgica
+BEN,Benín
+BES,"Bonaire, San Eustaquio y Saba"
+BFA,Burkina Faso
+BGD,Bangladesh
+BGR,Bulgaria
+BHR,Bahrein
+BHS,Bahamas
+BIH,Bosnia y Herzegovina
+BLM,San Bartolomé
+BLR,Bielorrusia
+BLZ,Belice
+BMU,Bermudas
+BOL,Bolivia
+BRA,Brasil
+BRB,Barbados
+BRN,Brunei Darussalam
+BTN,Bután
+BVT,Isla Bouvet
+BWA,Botswana
+CAF,República Centroafricana
+CAN,Canadá
+CCK,Islas Cocos
+CHE,Suiza
+CHL,Chile
+CHN,China
+CIV,Costa de Marfil
+CMR,Camerún
+COD,Zaire
+COG,República del Congo
+COK,Islas Cook
+COL,Colombia
+COM,Islas Comoras
+CPV,Cabo Verde
+CRI,Costa Rica
+CUB,Cuba
+CUR,Curazao
+CXR,Islas Navidad
+CYM,Islas Caimán
+CYP,Chipre
+CZE,República Checa
+DEU,Alemania
+DJI,Djibouti
+DMA,Dominica
+DNK,Dinamarca
+DOM,República Dominicana
+DZA,Argelia
+ECU,Ecuador
+EGY,Egipto
+ERI,Eritrea
+ESH,Sahara Occidental
+ESP,España
+EST,Estonia
+ETH,Etiopía
+FIN,Finlandia
+FJI,Fidji
+FLK,Islas Malvinas
+FRA,Francia
+FRO,Islas Feroé
+FSM,Estado de Micronesia
+FXA,Territorios franceses Australes y Antárticos
+GAB,Gabón
+GBR,Reino Unido
+GEO,Georgia
+GGY,Guernsey
+GHA,Ghana
+GIB,Gibraltar
+GIN,Guinea
+GLP,Guadalupe y Dependencias
+GMB,Gambia
+GNB,Guinea Bissau
+GNQ,Guinea Ecuatorial
+GRC,Grecia
+GRD,Granada
+GRL,Groenlandia
+GTM,Guatemala
+GUF,Guyana Francesa
+GUM,Guam
+GUY,Guyana
+GZA,Franja de Gaza
+HKG,Hong Kong
+HMD,Islas Heard y Mc Donald
+HND,Honduras
+HRV,Croacia
+HTI,Haití
+HUN,Hungría
+IDN,Indonesia
+IMN,Isla Man
+IND,India
+IOT,Territorios del Reino Unido del Océano Índico
+IRL,Irlanda
+IRN,Irán
+IRQ,Irak
+ISL,Islandia
+ISR,Israel
+ITA,Italia
+JAM,Jamaica
+JEY,Jersey
+JOR,Jordania
+JPN,Japón
+KAZ,Kazajstán
+KEN,Kenia
+KGZ,Kyrgyzstán
+KHM,Camboya
+KIR,Kiribati
+KNA,San Cristóbal y Nieves
+KOR,Corea del Sur
+KWT,Kuwait
+LAO,República de Laos
+LBN,Líbano
+LBR,Liberia
+LBY,Libia
+LCA,Santa Lucía
+LIE,Liechtenstein
+LKA,Sri Lanka
+LSO,Lesotho
+LTU,Lituania
+LUX,Luxemburgo
+LVA,Letonia
+MAC,Macao
+MAF,San Martín (Parte Francesa)
+MAR,Marruecos
+MCO,Mónaco
+MDA,Moldavia
+MDG,Madagascar
+MDV,Maldivas
+MEX,México
+MHL,Islas Marshall
+MKD,Macedonia
+MLI,Malí
+MLT,Malta
+MMR,Myanmar
+MNE,Montenegro
+MNG,Mongolia
+MNP,Islas Marianas
+MOZ,Mozambique
+MRT,Mauritania
+MSR,Isla Montserrat
+MTQ,Martinica
+MUS,Mauricio
+MWI,Malawi
+MYS,Malasia
+MYT,Mayotte
+NAM,Namibia
+NCL,Nueva Caledonia
+NCN,Territorios Franceses de Ultramar
+NER,Níger
+NFK,Isla Norfolk
+NGA,Nigeria
+NIC,Nicaragua
+NIU,Isla Nive
+NOR,Noruega
+NPL,Nepal
+NRU,Nauru
+NZL,Nueva Zelanda
+OMN,Omán
+PAK,Pakistán
+PAN,Panamá
+PCN,Islas Pitcairns
+PER,Perú
+PHL,Filipinas
+PLW,Palau
+PNG,Papúa Nueva Guinea
+POL,Polonia
+PRI,Puerto Rico
+PRK,Corea del Norte
+PRT,Portugal
+PRY,Paraguay
+PSE,Territorios Autónomos de Palestina
+PTY,Zona Canal de Panamá
+PYF,Polinesia Francesa
+QAT,Qatar
+REU,Isla Reunión
+RKE,Islas Canal
+ROU,Rumania
+RUH,Zona Neutral Irak-Arabia Saudita
+RUS,Federación Rusa
+RWA,Ruanda
+SAU,Arabia Saudita
+SCG,Serbia y Montenegro
+SDN,Sudán
+SEN,Senegal
+SGP,Singapur
+SGS,Georgia del Sur y Las Islas Sandwich del Sur
+SHN,Santa Elena
+SJM,Islas Svalbard y Jan Mayen
+SLB,Islas Salomón
+SLE,Sierra Leona
+SLV,El Salvador
+SMR,San Marino
+SOM,Somalia
+SPM,San Pedro y Miquelón
+SRB,Serbia
+SSD,Sudán del Sur
+STP,Santo Tome y Príncipe
+SUR,Surinam
+SVK,Eslovaquia
+SVN,Eslovenia
+SWE,Suecia
+SWZ,Swazilandia
+SXM,San Martín (parte Holandesa)
+SYC,Seychelles
+SYR,República Árabe Siria
+TCA,Islas Turcas y Caicos
+TCD,Chad
+TGO,Togo
+THA,Tailandia
+TJK,Tadjikistán
+TKL,Islas Tokelau
+TKM,Turkmenistán
+TLS,Timor Oriental
+TON,Tonga
+TTO,Trinidad y Tobago
+TUN,Túnez
+TUR,Turquía
+TUV,Tuvalu
+TWN,Taiwán
+TZA,Tanzania
+UGA,Uganda
+UKR,Ucrania
+UMI,Islas del Pacífico
+URY,Uruguay
+USA,Estados Unidos
+UZB,Uzbekistán
+VAT,Ciudad del Vaticano
+VCT,San Vicente y las Granadinas
+VEN,Venezuela
+VGB,Islas Vírgenes (Reino Unido)
+VIR,Islas Vírgenes (EU)
+VNM,Vietnam
+VUT,Vanuatu
+WLF,Islas Wallis y Futuna
+WSM,Samoa Occidental
+YEM,Yemen
+ZAF,Sudáfrica
+ZMB,Zambia
+ZWE,Zimbabwe
+ZYA,Países Bajos
+ZZZ,Países no identificados
+EMU,Otros países no declarados de la UE
+YUG,Países no declarados del Resto de Europa
+AME,América
+EUR,Europa
+ASI,Asia
