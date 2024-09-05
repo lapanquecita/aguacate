@@ -185,7 +185,7 @@ def comparacion_pib(campo, titulo, archivo):
     fig.write_image(f"./pib_{archivo}.png")
 
 
-def top_exportaciones(año, textos_adentro):
+def top_exportaciones(año):
     """
     Esta función crea una gráfica de barras con los países que más reciben aguacate desde México.
 
@@ -193,9 +193,6 @@ def top_exportaciones(año, textos_adentro):
     ----------
     año : int
         El año que nos interesa graficar.
-
-    textos_adentro : int
-        El número de textos que irán adentro de las barras.
 
     """
 
@@ -243,11 +240,11 @@ def top_exportaciones(año, textos_adentro):
         lambda x: f" {x['CANTIDAD']:,.0f} ({x['perc']:,.2f}%) ", axis=1
     )
 
-    # Creamos las posiciones de los textos.
-    posiciones = ["outside" for _ in range(len(df))]
+    # Calculamos la razón.
+    df["ratio"] = np.log10(df["CANTIDAD"]) / np.log10(df["CANTIDAD"].max())
 
-    for i in range(textos_adentro):
-        posiciones[i] = "inside"
+    # Calculamos la posición del texto en cada barra.
+    df["text_pos"] = df["ratio"].apply(lambda x: "inside" if x >= 0.91 else "outside")
 
     fig = go.Figure()
 
@@ -257,7 +254,7 @@ def top_exportaciones(año, textos_adentro):
             y=df["nombre"],
             text=df["texto"],
             orientation="h",
-            textposition=posiciones,
+            textposition=df["text_pos"],
             marker_color="#e65100",
             marker_line_width=0,
             textfont_family="Oswald",
@@ -843,7 +840,6 @@ def precio_mensual():
     # Iteramos sobre cada año que deseemos graficar.
     for año in range(2019, 2024):
         for mes in range(1, 13):
-            
             # Filtramos por mes y año.
             temp_df = df[(df.index.year == año) & (df.index.month == mes)]
             etiquetas = [datetime(año, mes, 1) for _ in range(len(temp_df))]
@@ -946,8 +942,8 @@ if __name__ == "__main__":
     comparacion_pib("Actividades_primarias", "al valor de las actividades priamrias", 2)
     comparacion_pib("Agricultura", "al valor de la agricultura", 3)
 
-    top_exportaciones(2004, 3)
-    top_exportaciones(2023, 1)
+    top_exportaciones(2004)
+    top_exportaciones(2023)
 
     composicion_produccion()
     tendencia_mensual()
