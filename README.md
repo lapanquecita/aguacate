@@ -47,7 +47,7 @@ Si crees que este porcentaje es alto, espera a ver el mapa del 2004.
 
 En 2004, Michoacán fue responsable del 87.51% de la producción de aguacate en el país.
 
-Al comparar ambos mapas, se puede observar que otras entidades también han entrado en esta lucraiva industria.
+Al comparar ambos mapas, se puede observar que otras entidades también han entrado en esta lucrativa industria.
 
 ![Municipal 2023](./imgs/municipios_2023.png)
 

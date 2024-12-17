@@ -7,6 +7,7 @@ from datetime import datetime
 import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
+from statsmodels.tsa.seasonal import STL
 
 
 PAPER_BGCOLOR = "#31363F"
@@ -524,8 +525,8 @@ def tendencia_mensual():
     # Convertimos de miles de dólares a millones de dólares.
     df /= 1000
 
-    # Calculamos el promedio móvil a 12 periodos.
-    df["rolling"] = df["USD_miles"].rolling(12).mean()
+    # Calculamos la tendencia a 12 periodos.
+    df["tendencia"] = STL(df["USD_miles"]).fit().trend
 
     # Seleccionamos los últimos 102 meses.
     df = df.tail(102)
@@ -563,9 +564,9 @@ def tendencia_mensual():
     fig.add_trace(
         go.Scatter(
             x=df.index,
-            y=df["rolling"],
+            y=df["tendencia"],
             mode="lines",
-            name="Promedio móvil",
+            name="Tendencia",
             line_width=3,
             line_color="#ffe57f",
         )
@@ -705,7 +706,7 @@ def precio_medio_rural():
             y=df["pmr"],
             text=df["pmr"],
             texttemplate="%{text:,.2f}",
-            marker_color="#1565c0",
+            marker_color="#009688",
             name="Precio medio rural (pesos por kilogramo)",
             marker_line_width=0,
             textposition="outside",
@@ -721,7 +722,7 @@ def precio_medio_rural():
             y=df["precio"],
             text=df["precio"],
             texttemplate="%{text:,.2f}",
-            marker_color="#d50000",
+            marker_color="#fb8c00",
             name="Precio al consumidor (pesos por kilogramo)",
             marker_line_width=0,
             textposition="outside",
