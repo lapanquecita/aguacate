@@ -1,17 +1,19 @@
-﻿CVE,nombre
+PAIS_O_D,PAIS
 ABW,Aruba
 AFG,Afganistán
 AGO,Angola
 AIA,Anguila
 ALA,Islas Áland
 ALB,Albania
+AME,América
 AND,Andorra
 ANT,Antillas Neerlandesas
-AQS,Antártica
 ARE,Emiratos Árabes Unidos
 ARG,Argentina
 ARM,Armenia
+ASI,Asia
 ASM,Samoa Americana
+ATA,Antártida
 ATF,Territorios Franceses del Sur
 ATG,Antigua y Barbuda
 AUS,Australia
@@ -72,6 +74,7 @@ ESH,Sahara Occidental
 ESP,España
 EST,Estonia
 ETH,Etiopía
+EUR,Europa
 FIN,Finlandia
 FJI,Fidji
 FLK,Islas Malvinas
@@ -98,7 +101,7 @@ GUF,Guyana Francesa
 GUM,Guam
 GUY,Guyana
 GZA,Franja de Gaza
-HKG,Hong Kong
+HKG,Hong Kong (Región Administrativa Especial de la República de China)
 HMD,Islas Heard y Mc Donald
 HND,Honduras
 HRV,Croacia
@@ -201,7 +204,7 @@ SCG,Serbia y Montenegro
 SDN,Sudán
 SEN,Senegal
 SGP,Singapur
-SGS,Georgia del Sur y Las Islas Sandwich del Sur
+SGS,Georgia del Sur e Islas Sandwich del Sur
 SHN,Santa Elena
 SJM,Islas Svalbard y Jan Mayen
 SLB,Islas Salomón
@@ -234,7 +237,7 @@ TTO,Trinidad y Tobago
 TUN,Túnez
 TUR,Turquía
 TUV,Tuvalu
-TWN,Taiwán
+TWN,Taiwán (República de China)
 TZA,Tanzania
 UGA,Uganda
 UKR,Ucrania
@@ -259,6 +262,3 @@ ZYA,Países Bajos
 ZZZ,Países no identificados
 EMU,Otros países no declarados de la UE
 YUG,Países no declarados del Resto de Europa
-AME,América
-EUR,Europa
-ASI,Asia
