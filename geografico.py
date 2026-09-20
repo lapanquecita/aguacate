@@ -68,7 +68,7 @@ def plot_mapa_estatal(año):
             etiquetas.append(f"{10**item:,.0f}")
 
     # Cargamos el archivo GeoJSON de México.
-    geojson = json.loads(open("./assets/mexico.json", "r", encoding="utf-8").read())
+    geojson = json.load(open("./assets/mexico.json", "r", encoding="utf-8"))
 
     fig = go.Figure()
 
@@ -357,7 +357,7 @@ def plot_mapa_municipal(año):
             etiquetas.append(f"{10**item:,.0f}")
 
     # Cargamos el GeoJSON de municipios de México.
-    geojson = json.loads(open("./assets/municipios.json", "r", encoding="utf-8").read())
+    geojson = json.load(open("./assets/municipios.json", "r", encoding="utf-8"))
 
     fig = go.Figure()
 
@@ -398,7 +398,7 @@ def plot_mapa_municipal(año):
     # de las entidades federativas.
 
     # Cargamos el archivo GeoJSON de México.
-    geo_borde = json.loads(open("./assets/mexico.json", "r", encoding="utf-8").read())
+    geo_borde = json.load(open("./assets/mexico.json", "r", encoding="utf-8"))
 
     # Este mapa tiene mucho menos personalización.
     # Lo único que necesitamos es que muestre los contornos
@@ -406,7 +406,7 @@ def plot_mapa_municipal(año):
     fig.add_traces(
         go.Choropleth(
             geojson=geo_borde,
-            locations=[item["properties"]["CVEGEO"] for item in geojson["features"]],
+            locations=[item["properties"]["CVEGEO"] for item in geo_borde["features"]],
             z=[1 for _ in geo_borde["features"]],
             featureidkey="properties.CVEGEO",
             colorscale=["hsla(0, 0%, 0%, 0)", "hsla(0, 0%, 0%, 0)"],
